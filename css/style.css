@@ -21,12 +21,12 @@ body{
 */
 
 .header-area{
-    padding:25px;
+    padding: 25px;
 }
 
 .header-container{
     width: 1170px;
-    margin: 0 auto;
+    margin: 0px auto;
     vertical-align: middle;
 }
 
@@ -39,14 +39,17 @@ body{
     font-family: 'Poppins';
     /* background:radial-gradient(#f3d2d2, #d2d4d2, #343257 ); */
     /* background: url("../img/logo.jpeg") no-repeat; */
-    padding: 10px;
-    border-radius: 35%;
+    padding: 0px 10px;
+    /* border-radius: 35%; */
 }
 
 
 .logo-content a img{
     width: 150px;
     height: 40px;
+    position: relative;
+    top: 10%;
+    left: -40%;
 }
 
 .navigational-menu__items li{
@@ -70,7 +73,7 @@ body{
 }
 
 .navigational-menu__items li >a{
-    margin-left:28px;
+    margin-left:20px;
     font-size:20px;
     height: 30px;
     /* transition: all 1s; */
