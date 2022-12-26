@@ -129,7 +129,8 @@ body{
 
 .about-title{
     text-align: center;
-    margin-bottom:40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .about-title h4{
@@ -250,6 +251,14 @@ body{
 
 .single-service:hover{
     border: 2px solid blue;
+}
+
+
+.single-service .btn:hover{
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #164b0f;
 }
 
 .services-type img{
