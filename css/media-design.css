@@ -1,0 +1,94 @@
+/*
+    Media Query Based File
+*/
+
+/*
+    Desktop Based Devices
+*/
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    .header-container,
+    .banner-container,
+    .services-container,
+    .contact-container,
+    .about-container,
+    .footer-container{
+        width:970px;
+    }
+}
+
+
+
+/*
+    Tablet Based Devices
+*/
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .header-container,
+    .banner-container,
+    .services-container,
+    .contact-container,
+    .about-container,
+    .footer-container{
+        width:750px;
+    }
+}
+
+/*
+    Mobile Based Devices
+*/
+@media only screen and (max-width:767px) {
+    .header-container,
+    .banner-container,
+    .services-container,
+    .contact-container,
+    .about-container,
+    .footer-container{
+        width:970px;
+    }
+    
+    .header-part, .about-information, .services-type{
+        flex-direction:column;
+        width:45%;
+    }
+    .about-title > h4,
+    .service-section__title > h4, 
+    .about-section__title >h4,
+    .gallry-section__title > h4,  
+    .footer-information{
+        width:45%;
+    }
+
+    .navigational-menu__items{
+        flex-direction:column;
+        align-items:center;
+        margin:30px;
+        padding:10px;
+    }
+
+    .gallary{
+        width:40%;
+    }
+    .single-about{
+        margin-top: 30px;
+    }
+    .single-service{
+        width: 100%;
+        margin-top:30px;
+    }
+    .single-gallary{
+        width: 30%;
+    }
+    .contact-form{
+        width: 50%;
+        margin-bottom:20%;
+    }
+    .contact-form__icons{
+        width: 100%;
+    }
+}
+
+/*
+    Wider Length Mobile Based Devices
+*/
+@media only screen and (min-width:480px) and (max-width:767px) {
+    
+}

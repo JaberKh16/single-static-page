@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Importing The Font Style For Text*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    line-height:24px;
+    color: #343434;
+}
+
+/*
+================================================================
+                    Navigational Menu CSS Design
+================================================================ 
+*/
+
+.header-area{
+    padding:25px;
+}
+
+.header-container{
+    width: 1170px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.logo-content a{
+    color:#2e2f80;
+    /* font-size:30px;
+    font-weight:bold; */
+    /* text-decoration:none; */
+    /* text-transform: uppercase; */
+    font-family: 'Poppins';
+    /* background:radial-gradient(#f3d2d2, #d2d4d2, #343257 ); */
+    /* background: url("../img/logo.jpeg") no-repeat; */
+    padding: 10px;
+    border-radius: 35%;
+}
+
+
+.logo-content a img{
+    width: 150px;
+    height: 40px;
+}
+
+.navigational-menu__items li{
+    list-style-type: none;
+}
+
+.navigational-menu__items li > a{
+    list-style-type: none;
+    color:#343434;
+    text-decoration: none;
+}
+
+.header-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigational-menu__items{
+    display: flex;
+}
+
+.navigational-menu__items li >a{
+    margin-left:28px;
+    font-size:20px;
+    /* transition: all 1s; */
+}
+
+.navigational-menu__items li > a:hover{
+    color: #4b299b;
+    border-bottom: 3px solid rgb(14, 54, 114);
+    padding: 5px;
+    /* background-color: #2326b8; */
+}
+
+/*
+================================================================
+                    Navigational Menu CSS Design
+================================================================ 
+*/
+
+/*
+================================================================
+                        Banner Section CSS Design
+================================================================ 
+*/
+
+.banner-image > img{
+    width: 94%;
+    height: 450px;
+    margin: 0 20px;
+    border: 3px solid #161414;
+    padding: 5px;
+    border-radius: calc(5px);
+}
+
+/*
+================================================================
+                    Banner Section CSS Design
+================================================================ 
+*/
+
+/*
+================================================================
+                    About Section CSS Design
+================================================================ 
+*/
+.about-area{
+    padding: 65px;
+}
+
+.about-title{
+    text-align: center;
+    margin-bottom:40px;
+}
+
+.about-title h4{
+    text-transform: uppercase;
+    font-size:40px;
+}
+
+.about-title p{
+    margin: 30px auto;
+    padding: 25px;
+    text-align: center;
+    border: 2px solid rgba(34,34,34, 0.7);
+}
+
+
+.about-information{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.single-about{
+    text-align: center;
+    border: 1px solid rgba(34,34,34, 0.4);
+    flex-basis: 30%;
+    padding: 20px 10px;
+    transition: all 0.5s;
+}
+
+.single-about > i{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.single-about h4{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    margin: 25px 0px 10px;
+    /* padding: 10px; */
+}
+
+.single-about:hover{
+    border-color: blue;
+}
+
+/*
+================================================================
+            About Section CSS Design
+================================================================ 
+*/
+
+/*
+================================================================
+                    Services Section CSS Design
+================================================================ 
+*/
+
+.services-area{
+    background-color: #b6b1b19f;
+    padding: 60px 0;
+}
+
+.services-container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.service-section__title h4{
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgba(39, 34, 34, 0.205);
+    margin: 0 20px;
+    font-size: 30px;
+}
+
+.services-type{
+    margin-top:60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+    /* position: absolute; */
+}
+
+.single-service{
+    text-align: center;
+    /* align-items: center; */
+    border: 2px solid;
+    /* padding: 20px auto; */
+    flex-basis: 28%;
+    margin: 20px;
+    padding: 10px;
+    /* width: 50%; */
+    background-color:#a5a5afe7;
+}
+
+.single-service h4{
+    font-size: 22px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: underline;
+    /* margin:50px 10px 30px; */
+    background-color:#343257;
+    color: white;
+}
+
+.single-service p{
+    text-align: left;
+    padding: 15px;
+    margin: 10px;
+    transition: all 0.5s;
+    color: rgb(255, 255, 255);
+}
+
+.single-service:hover{
+    border: 2px solid blue;
+}
+
+.services-type img{
+    /* margin: 10px; */
+    width: 100%;
+    height: 35%;
+    border: 1px solid;
+}
+
+.services-type button{
+    background-color: #202097;
+    color: #fff;
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid #343257;
+    outline: none;
+    margin-top: calc(30px);
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+/*
+================================================================
+                    Services Section CSS Design
+================================================================ 
+*/
+
+/*
+================================================================
+                    Gallary Section CSS Design
+================================================================ 
+*/
+
+.gallary-area{
+    padding: 60px 0;
+}
+
+.gallary-container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.gallry-section__title h4{
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgba(39, 34, 34, 0.205);
+    margin: 0 20px;
+    font-size: 30px;
+}
+
+.gallary{
+    margin-top: 45px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.single-gallary{
+    /* text-align: center; */
+    /* align-items: center; */
+    border: 1px solid;
+    /* padding: 20px auto; */
+    flex-basis: 27%;
+    margin: 5px;
+    /* padding: 10px; */
+    width:24%;
+}
+
+.single-gallary img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    padding: 3px;
+    margin-bottom: 15px;
+}
+
+/*
+================================================================
+                    Gallary Section CSS Design
+================================================================ 
+*/
+
+
+/*
+================================================================
+                    Contact Section CSS Design
+================================================================ 
+*/
+
+.contact-container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.contact-area{
+    background-color:#d1d1d1b7;
+    padding: 60px 0;
+}
+
+.about-section__title{
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgba(39, 34, 34, 0.205);
+    margin: 40px 20px;
+    font-size: 30px;
+}
+
+.contact-information{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.contact-form{
+    width: 60%;
+    margin-right: 30px;
+}
+
+.contact-form > input , .contact-form > textarea{
+    width: 100%;
+    border: 2px solid #d1d1d2; 
+    /* height: 30px; */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-form > input[type="submit"]{
+    background-color:#202097;
+    color: #fff;
+    border: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.single-form__icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.single-form__icon > i{
+    background-color:blue;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right:12px;
+}
+
+.single-form__icon h4{
+    font-size:20px;
+    text-transform: capitalize;
+}
+
+.single-form__icon h4 > span{
+    font-weight: normal;
+    display: block;
+    font-weight: 16px;
+}
+
+/*
+================================================================
+                    Contact Section CSS Design
+================================================================ 
+*/
+
+
+/*
+================================================================
+                    Footer Section CSS Design
+================================================================ 
+*/
+
+
+.footer-area{
+    background-color:#2326b8;
+    padding:10px;
+}
+
+.footer-information p{
+    text-align: center;
+    color: #fff;
+}
+
+/*
+================================================================
+                    Footer Section CSS Design
+================================================================ 
+*/
