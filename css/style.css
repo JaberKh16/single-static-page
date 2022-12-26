@@ -72,13 +72,19 @@ body{
 .navigational-menu__items li >a{
     margin-left:28px;
     font-size:20px;
+    height: 30px;
     /* transition: all 1s; */
 }
+
+.navigational-menu__items li a i{
+    padding: 0px 10px;
+}
+
 
 .navigational-menu__items li > a:hover{
     color: #4b299b;
     border-bottom: 3px solid rgb(14, 54, 114);
-    padding: 5px;
+    padding: 10px;
     /* background-color: #2326b8; */
 }
 
